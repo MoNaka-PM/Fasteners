@@ -26,10 +26,10 @@
 
 /*стили Header*/
 .header {
-   min-height: 450px;
-   background-image: url("/images/header-backround.jpeg");
+   min-height: 821px;
+   background-image: url("/images/anker-2.jpeg");
    background-repeat: no-repeat;
-   background-color: #000000;
+   background-color: white;
    background-size: cover;
    background-position: center center;
    position: relative;
@@ -52,4 +52,9 @@
    max-width: 1200px;
    padding: 0 15px;
    margin: 0 auto;
+}
+.menu {
+   padding-top: 40px;
+   display: flex;
+   justify-content: space-between; 
 }
